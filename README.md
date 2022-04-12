@@ -1,2 +1,2 @@
 # game-mania
-Game Mania foi meu primeiro projeto desenvolvido ao longo do curso de Desenvolvedor Front End ministrado pelo SENAI.
+Game Mania was my first project developed during the Front End Developer course taught by SENAI - National Service for Industrial Learning.
