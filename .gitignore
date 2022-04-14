@@ -391,3 +391,8 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
+
+# Docs
+/docs/*.docx
+/docs/*.png
+
