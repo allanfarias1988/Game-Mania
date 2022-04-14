@@ -15,6 +15,9 @@
 - Login with Google API;
 - Shopping Cart;
 - API credit card payment;
+- Imgs Optimizer;
+- CSS Optimizer and Sass Implementation;
+- Code Refactory
 
 ## **Preview**
 https://allanfarias1988.github.io/game-mania/
