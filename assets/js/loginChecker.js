@@ -23,8 +23,9 @@ function loginChecker() {
   );
   if (validEmail == false) {
     alert("Este email possui caracteres inválidos. Por favor tente novamente.");
-  } else if (validPassword == false) {
-    /* NOT WORKING */
-    /* document.querySelector(".password-info").classList.remove("d-none"); */
   }
+  /* NOT WORKING */
+  /* else if (validPassword == false) {
+    document.querySelector(".password-info").classList.remove("d-none");
+  } */
 }
