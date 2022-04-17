@@ -1,1 +1,145 @@
-/* You can add global styles to this file, and also import other style files */
+/* GLOBAL AND IMPORT STYLE SHEETS */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300 !important;400 !important;700&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
+
+.container {
+  max-width: 1280px !important;
+}
+
+img {
+  max-width: 100% !important;
+  height: auto !important;
+}
+
+.text-white {
+  color: #e9e9e9 !important;
+}
+
+/* BACKGROUNDS COLOR*/
+
+.background {
+  background-color: #1e1e1e !important;
+}
+
+.bg-dark {
+  background-color: #000 !important;
+}
+
+.bg-gradient-2 {
+  background: linear-gradient(to right, #b661c6, #01cadc) !important;
+}
+.bg-secondary {
+  background-color: #b661c6 !important;
+}
+
+/* LINKS */
+
+.list-unstyled a {
+  transition: 0.4s !important;
+  border-radius: 5px !important;
+}
+
+.list-unstyled a:hover {
+  transition: 0.4s !important;
+  background-color: #01cadc !important;
+  color: #000 !important;
+  border-radius: 5px !important;
+}
+
+.active {
+  color: #01cadc !important;
+}
+
+.active:hover {
+  color: #b661c6 !important;
+}
+
+a {
+  text-decoration: none !important;
+  color: #01cadc !important;
+}
+
+a:visited {
+  color: #e9e9e9 !important;
+}
+
+a:hover {
+  color: #e9e9e9 !important;
+}
+
+a:visited {
+  color: #e9e9e9 !important;
+}
+
+/* BUTTONS */
+
+input {
+  border-color: #01cadc !important;
+}
+
+.btn-dark {
+  transition: 0.2s !important;
+}
+.btn-dark:hover {
+  background-color: #000 !important;
+  color: #fff !important;
+  transition: 0.2s !important;
+}
+
+.btn-primary {
+  background-color: #e9e9e9 !important;
+  color: #1e1e1e !important;
+  border: #1e1e1e !important;
+}
+
+.btn-primary:hover {
+  background-color: #1e1e1e !important;
+  border: #1e1e1e !important;
+}
+
+.btn-secondary {
+  background-color: #b661c6 !important;
+}
+
+.btn-outline-light {
+  border-color: #01cadc !important;
+}
+.btn-outline-light:hover {
+  color: #fff !important;
+  background-color: #01cadc !important;
+  border-color: #01cadc !important;
+}
+.btn-outline-info {
+  border-color: #b661c6 !important;
+  color: #fff !important;
+}
+.btn-outline-info:hover {
+  background-color: #b661c6 !important;
+  color: #fff !important;
+  border-color: #b661c6 !important;
+}
+
+/* ICONS */
+
+.bi-person {
+  font-size: 1.3em !important;
+}
+
+.bi-controller {
+  font-size: 2em !important;
+  color: #01cadc !important;
+}
+
+/* RESPONSIVE MODE */
+
+@media (max-width: 992px) {
+  p,
+  h1,
+  h2,
+  h3,
+  div {
+    text-align: center !important;
+    justify-content: center !important;
+  }
+}

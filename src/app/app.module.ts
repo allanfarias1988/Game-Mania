@@ -11,9 +11,11 @@ import { GamesComponent } from './views/games/games.component';
 import { HardwareComponent } from './views/hardware/hardware.component';
 import { PcGamerComponent } from './views/pc-gamer/pc-gamer.component';
 import { RegisterComponent } from './views/register/register.component';
+import { HeaderComponent } from './views/header/header.component';
+import { FooterComponent } from './views/footer/footer.component';
 
 @NgModule({
-  declarations: [AppComponent, HomeComponent, LoginComponent, AboutComponent, GamesComponent, HardwareComponent, PcGamerComponent, RegisterComponent],
+  declarations: [AppComponent, HomeComponent, LoginComponent, AboutComponent, GamesComponent, HardwareComponent, PcGamerComponent, RegisterComponent, HeaderComponent, FooterComponent],
   imports: [BrowserModule, AppRoutingModule, FormsModule],
   providers: [],
   bootstrap: [AppComponent],
