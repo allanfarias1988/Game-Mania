@@ -1,5 +1,7 @@
+import { UsuariosModule } from './../../models/usuarios/usuarios.module';
+import { CrudService } from './../../services/crud.service';
 import { Component, OnInit } from '@angular/core';
-import { User } from 'src/app/models/user';
+import { error } from '@angular/compiler/src/util';
 
 @Component({
   selector: 'app-login',
@@ -7,14 +9,16 @@ import { User } from 'src/app/models/user';
   styleUrls: ['./login.component.css'],
 })
 export class LoginComponent implements OnInit {
-  constructor() {}
+  usuarios = UsuariosModule;
+  constructor(private CrudService: CrudService) {}
 
-  ngOnInit(): void {
-    this.submit();
-  }
-  userModel = new User('', '');
-
-  submit() {
-    console.log(this.userModel);
+  ngOnInit() {}
+  getUsuarios() {
+    this.CrudService.getUsuarios().subscribe(
+      (dados: UsuariosModule) => {
+        this.usuarios = dados;
+      },
+      (error) => {}
+    );
   }
 }

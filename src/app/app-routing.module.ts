@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { UsersComponent } from './users/users.component';
 import { AboutComponent } from './views/about/about.component';
 import { FooterComponent } from './views/footer/footer.component';
 import { GamesComponent } from './views/games/games.component';
@@ -11,7 +12,6 @@ import { PcGamerComponent } from './views/pc-gamer/pc-gamer.component';
 import { RegisterComponent } from './views/register/register.component';
 
 const routes: Routes = [
-  /* { path: '', redirectTo: 'games', pathMatch: 'full' }, */
   { path: 'about', component: AboutComponent },
   { path: 'games', component: GamesComponent },
   { path: 'hardware', component: HardwareComponent },
@@ -21,6 +21,7 @@ const routes: Routes = [
   { path: 'register', component: RegisterComponent },
   { path: 'header', component: HeaderComponent },
   { path: 'footer', component: FooterComponent },
+  { path: 'users', component: UsersComponent },
 ];
 
 @NgModule({

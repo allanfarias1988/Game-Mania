@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "usuario": "Allan Farias",
+      "email": "allan.digitaltec@gmail.com",
+      "senha": "allan9999"
+    },
+    {
+      "usuario": "joao",
+      "email": "joao@gmail.com",
+      "senha": "joao9999",
+      "id": 2
+    },
+    {
+      "id": 3,
+      "usuario": "maria",
+      "email": "maria@gmail.com",
+      "senha": "maria9999"
+    }
+  ]
+}
